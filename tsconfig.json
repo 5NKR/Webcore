@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+		"module": "preserve",
+
+		"types": [ "node" ],
+		"lib": [ "es2022", "dom" ],
+
+		"allowArbitraryExtensions": true,
+		"skipLibCheck": true,
+		"moduleResolution": "bundler",
+		"verbatimModuleSyntax": false,
+		"moduleDetection": "force",
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"erasableSyntaxOnly": false,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+
+		"rootDir": "./types/include",
+		"outDir": "./src/lib",
+		"strict": true,
+
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+
+		"noUncheckedIndexedAccess": true,
+		"noUncheckedSideEffectImports": true,
+		"exactOptionalPropertyTypes": true,
+		"pretty": true
+	},
+	"include": [
+		"scripts/include"
+	]
+}
