@@ -1,7 +1,7 @@
 import GifIndexJson from './gif-index.json';
 import GifIndexB64Json from './gif-index.b64.json';
 class WebcoreGifLookupService {
-    static KEY = Symbol.for('@5nkr/webcore.gifs');
+    static KEY = Symbol.for('@5nkr/webcore::gif_lookup_service');
     static getInstance() {
         const glob = globalThis;
         return glob[this.KEY] ??= new WebcoreGifLookupService();

@@ -42,7 +42,7 @@ class Build {
         }
 
         const keys: string = Object.keys(this.base64Entries).map(key => `'${ key }'`).join(' | ');
-        const webcorePath: string = path.join('types', 'include', 'webcore.ts');
+        const webcorePath: string = path.join('scripts', 'include', 'webcore.ts');
         let data: string = fs.readFileSync(webcorePath, 'utf-8');
 
         if (!data.includes('WebcoreGifHandle'))
@@ -59,8 +59,8 @@ class Build {
         fs.writeFileSync(this.mainDestPath, JSON.stringify(this.entries, null, 4));
         fs.writeFileSync(this.base64DestPath, JSON.stringify(this.base64Entries, null, 4));
 
-        fs.copyFileSync(this.mainDestPath, path.join('types', 'include', this.mainDestPath.substring(this.mainDestPath.lastIndexOf('/') + 1)));
-        fs.copyFileSync(this.base64DestPath, path.join('types', 'include', this.base64DestPath.substring(this.base64DestPath.lastIndexOf('/') + 1)));
+        fs.copyFileSync(this.mainDestPath, path.join('scripts', 'include', this.mainDestPath.substring(this.mainDestPath.lastIndexOf('/') + 1)));
+        fs.copyFileSync(this.base64DestPath, path.join('scripts', 'include', this.base64DestPath.substring(this.base64DestPath.lastIndexOf('/') + 1)));
     }
 }
 
