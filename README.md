@@ -1,6 +1,6 @@
 # Webcore!!
 
-[![npm version](https://img.shields.io/npm/v/npm?style=flat-square)](https://www.npmjs.com/package/npm) [![license](https://img.shields.io/github/license/5NKR/Webcore?style=flat-square)](https://github.com/5NKR/Webcore/blob/main/LICENSE) [![last commit](https://img.shields.io/github/last-commit/5NKR/Webcore?style=flat-square)](https://github.com/5NKR/Webcore/commits) [![open issues](https://img.shields.io/github/issues/5NKR/Webcore?style=flat-square)](https://github.com/5NKR/Webcore/issues)
+[![npm version](https://img.shields.io/npm/v/npm?style=flat-square)](https://www.npmjs.com/package/npm) [![license](https://img.shields.io/github/license/5NKR/Webcore?style=flat-square)](https://github.com/5NKR/Webcore/blob/master/LICENSE) [![last commit](https://img.shields.io/github/last-commit/5NKR/Webcore?style=flat-square)](https://github.com/5NKR/Webcore/commits) [![open issues](https://img.shields.io/github/issues/5NKR/Webcore?style=flat-square)](https://github.com/5NKR/Webcore/issues)
 
 Utilities, resources & GIFs focused on replicating and accessing the weird elements of early 2000s internet
 
